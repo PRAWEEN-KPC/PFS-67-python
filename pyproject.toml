@@ -1,0 +1,17 @@
+[project]
+name = "pfs-67-python-dsa"
+version = "0.1.0"
+description = "Readable Python data structures and algorithms for learning and interview practice."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Praween Kamani" }
+]
+dependencies = []
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
