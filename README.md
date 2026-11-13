@@ -63,7 +63,7 @@ Activate the environment:
 Run a module:
 
 ```bash
-python -m 01_fundamentals.arrays
+python 01_fundamentals/arrays.py
 ```
 
 Run tests:
